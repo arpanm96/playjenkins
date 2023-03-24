@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: sudhamshk/endgame:latest
+      - image: arpanm96/endgame:latest
         imagePullPolicy: Always
         name: myweb
 ---
@@ -28,7 +28,7 @@ metadata:
   name: myweb
 spec:
   ports:
-  - nodePort: 32223
+  - nodePort: 32224
     port: 80
     protocol: TCP
     targetPort: 80
